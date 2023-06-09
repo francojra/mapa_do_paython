@@ -53,10 +53,10 @@ Loop for: `for i in range(número)`.
 
 Loop while: `while` e `break`.
 
-```{python}
+``` python
 # condicionais if e else
 if 3 < 6:
-    print("verdade")
+    print("verdadeiro")
 else:
     print("falso")
 
@@ -74,3 +74,7 @@ while variavel2 < 6:
         break
 print("ok")
 ```
+
+### Entradas e saídas
+
+Entradas:
