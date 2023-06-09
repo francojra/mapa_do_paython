@@ -3,16 +3,26 @@ title: "Mapa do Python"
 author: "Jeanne Franco"
 format: html
 editor: visual
+date: today
+lang: pt
 ---
 
 # Mapa do Python
 
 ### Operadores
 
-**Operadores númericos**: adição (+), subtração (-), multiplicação (*\*), exponenciação (*\*\*), divisão (/).
+Operadores númericos: adição (`+`), subtração (`-`), multiplicação (`*`), exponenciação (`**`), divisão (`/`).
 
-**Operadores de comparação**: \>, \<, \>=, \<=, ==.
+Operadores de comparação: `>`, `<`, `>=`, `<=`, `==`.
 
-**Operadores lógicos**: and, or, not.
+Operadores lógicos: `and`, `or`, `not`.
 
 ### Tipos de dados
+
+String:`type("palavra")`.
+
+Inteiro: `type(2)`.
+
+Float:`type(1.4)`.
+
+Booleano: `type(True)`.
