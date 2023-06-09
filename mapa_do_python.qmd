@@ -26,3 +26,51 @@ Inteiro: `type(2)`.
 Float:`type(1.4)`.
 
 Booleano: `type(True)`.
+
+### Coleções
+
+Listas: `lista = [1, 2, 3]`.
+
+Dicionários: `dicionario = {"chave" : "valor"}`.
+
+Tuplas: `tupla = (1, 2, 3)`.
+
+Conjuntos: `conjunto = set([1, 2, 3])`.
+
+### Variáveis
+
+Exemplos de variáveis:
+
+`variavel1 = 3`
+
+`variavel2 = variavel1 + 3`
+
+### Condicionais
+
+Condições: `if` e `elif` e `else`.
+
+Loop for: `for i in range(número)`.
+
+Loop while: `while` e `break`.
+
+```{python}
+# condicionais if e else
+if 3 < 6:
+    print("verdade")
+else:
+    print("falso")
+
+# Loop for i in range
+variavel1 = 1
+for i in range(5):
+    print("sequencia")
+
+# Loop while e break
+variavel2 = 0
+while variavel2 < 6:
+    print("continua")
+    variavel2 = variavel2 + 1
+    if variavel2 == 5:
+        break
+print("ok")
+```
