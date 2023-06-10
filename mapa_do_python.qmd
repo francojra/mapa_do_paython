@@ -77,4 +77,44 @@ print("ok")
 
 ### Entradas e saídas
 
-Entradas:
+Entradas: `valor = float(input("Digite um número:"))`.
+
+Saídas: `print("O número é {:.2f}!" .format(valor))`.
+
+### Manipulação de arquivos
+
+``` python
+with open("C:/dir/arquivo.txt", "w") as arquivo:
+  texto = "Minhas anotações"
+  arquivo.write(texto)
+  arquivo.close()
+```
+
+### Funções e classes
+
+### Módulos e pacotes
+
+Exemplo de importação de biblioteca:
+
+``` python
+from biblioteca import funcao
+```
+
+### Ambientes virtuais
+
+Prompt de comando: para estabelecer pastas como diretório de trabalho e fazer as instalações corretas.
+
+![](prompt.png){fig-align="center"}
+
+### Erros e exceções
+
+Tratamento de erro: após executar uma tarefa e identificar um erro, pode adicionar uma nova função para tratamento dos erros, como estabelecer uma tarefa após o erro. Isso é importante para que o código não quebre e pare de executar a tarefa.
+
+``` python
+for i in range(10):
+  try:
+    
+  except:
+    print("Ocorreu um erro")
+    continue
+```
