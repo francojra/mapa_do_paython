@@ -190,7 +190,45 @@ for i in range(10):
 ::: {.callout-note appearance="simple"}
 ## Executar funções:
 
-Para executar alguma função, nós podemos criar códigos ou usar bibliotecas prontas que facilitam a execução de uma tarefa. Essas bibliotecas podem ser mais eficientes do que novos códigos criados permitindo ganho de tempo.
+Para executar alguma função, nós podemos criar códigos ou usar bibliotecas prontas com códigos bem elaborados que facilitam a execução de uma tarefa. Essas bibliotecas podem ser mais eficientes do que novos códigos criados permitindo ganho de tempo.
 :::
 
-## 
+## Bibliotecas
+
+### Análise de dados e Inteligência artificial
+
+-   Numpy
+
+-   Pandas
+
+-   Matplotlib
+
+-   Seaborn
+
+-   Scikitlearn
+
+#### ➙ Frameworks para Machine Learning
+
+-   TensorFlow
+
+-   Keras
+
+-   PyTorch
+
+-   Theano
+
+-   MxNet
+
+-   Caffe
+
+-   CNTK
+
+-   Pillow
+
+-   OpenCV
+
+-   ApacheSpark
+
+-   Hadoop
+
+### 
