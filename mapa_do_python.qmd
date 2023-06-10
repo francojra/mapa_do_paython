@@ -291,3 +291,20 @@ flowchart LR
     style id1 fill:#f9f,stroke:#333,stroke-width:2px
     style id2 fill:#e0b0ff
 ```
+
+### Automação de tarefas
+
+```{mermaid}
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+flowchart LR
+    id1["Bibliotecas Python"]
+    id1-->id2("Automação Web e Scraping")
+    id2 -->D["OS
+              RPA
+              APScheduler
+              Watchdog
+              Paramiko"]
+    
+    style id1 fill:#f9f,stroke:#333,stroke-width:2px
+    style id2 fill:#e0b0ff
+```
