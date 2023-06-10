@@ -250,3 +250,23 @@ flowchart TD
     style id2 fill:#e0b0ff
     style id3 fill:#e0b0ff
 ```
+
+### Desenvolvimento Games
+
+```{mermaid}
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+flowchart LR
+    id1["Bibliotecas Python"]
+    id1-->id2("Desenvolvimento Games")
+    id2 -->D["Pygame
+              PyKyra
+              Pyglat
+              Arcade
+              PyOpenGL
+              Panda3D
+              Ren'Py
+              Cocos2d"]
+    
+    style id1 fill:#f9f,stroke:#333,stroke-width:2px
+    style id2 fill:#e0b0ff
+```
