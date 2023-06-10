@@ -200,14 +200,26 @@ Para executar alguma função, nós podemos criar códigos ou usar bibliotecas p
 ```{mermaid}
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart TD
-    id1["`Bibliotecas Python`"]
-    id1-->C("`Análise de dados e Inteligência artificial`")
-    C -->D["`Numpy
+    id1["Bibliotecas Python"]
+    id1-->id2("Análise de dados e Inteligência artificial")
+    id2 -->D["Numpy
            Pandas
            Matplotlib
            Seaborn
-           Scikitlearn`"]
-    C -- "`Farmeworks para Inteligência Artificial`" --> E["`TensorFlow, Keras, PyTorch, Theano, MxNet, Caffe, CNTK, Pillow, OpenCV, ApacheSpark, Hadoop`"]
+           Scikitlearn"]
+    id2 -- "Farmeworks para 
+    Inteligência Artificial" --> E["TensorFlow
+       Keras
+       PyTorch
+       Theano
+       MxNet
+       Caffe
+       CNTK
+       Pillow
+       OpenCV
+       ApacheSpark
+       Hadoop"]
     
     style id1 fill:#f9f,stroke:#333,stroke-width:4px
+    style id2 fill:#e0b0ff
 ```
