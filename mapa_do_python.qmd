@@ -201,7 +201,7 @@ Para executar alguma função, nós podemos criar códigos ou usar bibliotecas p
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 flowchart TD
     id1["Bibliotecas Python"]
-    id1-->id2("Análise de dados e Inteligência artificial")
+    id1-->id2("Análise de Dados e Inteligência Artificial")
     id2 -->D["Numpy
            Pandas
            Matplotlib
@@ -218,8 +218,35 @@ flowchart TD
        Pillow
        OpenCV
        ApacheSpark (Big data)
-       Hadoop (Big data"]
+       Hadoop (Big data)"]
     
-    style id1 fill:#f9f,stroke:#333,stroke-width:4px
+    style id1 fill:#f9f,stroke:#333,stroke-width:3px
     style id2 fill:#e0b0ff
+```
+
+### Desenvolvimento web e app
+
+```{mermaid}
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+flowchart TD
+    id1["Bibliotecas Python"]
+    id1-->id2("Desenvolvimento Web")
+    id2 -->D["Django
+           Flask
+           CherryPy
+           Pyramid
+           TurboGears
+           Web2Py
+           Bottle
+           Tornado
+           Falcon"]
+    id1-->id3("Desenvolvimento App")
+    id3--> E["Kivy
+       BeeWare
+       Python-for-Android
+       PyJNIus"]
+    
+    style id1 fill:#f9f,stroke:#333,stroke-width:2px
+    style id2 fill:#e0b0ff
+    style id3 fill:#e0b0ff
 ```
