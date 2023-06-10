@@ -270,3 +270,24 @@ flowchart LR
     style id1 fill:#f9f,stroke:#333,stroke-width:2px
     style id2 fill:#e0b0ff
 ```
+
+### Automação Web e Scraping
+
+```{mermaid}
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+flowchart LR
+    id1["Bibliotecas Python"]
+    id1-->id2("Automação Web e Scraping")
+    id2 -->D["Urllib
+              Requests
+              Selenium
+              Webbot
+              Beautifulsoup
+              Scrapy
+              PyAutoGUI
+              Keyboard
+              Pynput"]
+    
+    style id1 fill:#f9f,stroke:#333,stroke-width:2px
+    style id2 fill:#e0b0ff
+```
