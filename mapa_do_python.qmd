@@ -92,6 +92,35 @@ with open("C:/dir/arquivo.txt", "w") as arquivo:
 
 ### Funções e classes
 
+Exemplo de funções e classes:
+
+``` python
+# Criando a minha função
+def sistema_planetario():
+    planeta = input("Digite aqui o planeta")
+    if planeta == "Terra":
+      print("O planeta Terra é o ...")
+    elif planeta == "Marte":
+      print("O planeta Marte é o...")
+    elif planeta == "Netuno":
+      print("O planeta Netuno é o...")
+    else:
+      print("Planeta indefinido.")
+      
+# Exemplo de função e classe
+def minha_funcao():
+  print("Minha primeira função.")
+  
+class MinhaClasse:
+  def __init__(self, nome, idade):
+      self.nome =  nome
+      self.idade = idade
+    
+  def funcao(self):
+      print("Meu nome é", self.nome)
+      print("Minha idade é", self.idade)
+```
+
 ### Módulos e pacotes
 
 Exemplo de importação de biblioteca:
@@ -118,3 +147,11 @@ for i in range(10):
     print("Ocorreu um erro")
     continue
 ```
+
+::: {.callout-note appearance="simple"}
+## Executar funções:
+
+Para executar alguma função, nós podemos criar códigos ou usar bibliotecas prontas que facilitam a execução de uma tarefa. Essas bibliotecas podem ser mais eficientes do que novos códigos criados permitindo ganho de tempo.
+:::
+
+## 
