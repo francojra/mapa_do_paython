@@ -95,7 +95,7 @@ with open("C:/dir/arquivo.txt", "w") as arquivo:
 Exemplo de funções e classes:
 
 ``` python
-# Criando a minha função
+# Criando funções
 def sistema_planetario():
     planeta = input("Digite aqui o planeta")
     if planeta == "Terra":
@@ -107,10 +107,47 @@ def sistema_planetario():
     else:
       print("Planeta indefinido.")
       
-# Exemplo de função e classe
+#####################################################
+
 def minha_funcao():
   print("Minha primeira função.")
-  
+
+#####################################################
+```
+
+``` python
+class Cliente:
+    def __init__(self, nome, email, plano):
+        self.nome = nome
+        self.email = email
+        lista_planos = ["basic", "premium"]
+        if plano in lista_planos:
+            self.plano = plano
+        else: 
+            raise Exception("Plano inválido.")
+
+cliente = Cliente("Lira", "lira_python@gmail.com", "basic")
+print(cliente.nome)
+print(cliente.email)
+print(cliente.plano)class Cliente:
+
+    def __init__(self, nome, email, plano):
+        self.nome = nome
+        self.email = email
+        lista_planos = ["basic", "premium"]
+        if plano in lista_planos:
+            self.plano = plano
+        else: 
+            raise Exception("Plano inválido.")
+
+cliente = Cliente("Lira", "lira_python@gmail.com", "basic")
+
+print(cliente.nome)
+print(cliente.email)
+print(cliente.plano)
+
+#####################################################
+
 class MinhaClasse:
   def __init__(self, nome, idade):
       self.nome =  nome
@@ -119,6 +156,8 @@ class MinhaClasse:
   def funcao(self):
       print("Meu nome é", self.nome)
       print("Minha idade é", self.idade)
+      
+####################################################
 ```
 
 ### Módulos e pacotes
