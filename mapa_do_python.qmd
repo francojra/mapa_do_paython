@@ -217,8 +217,8 @@ flowchart TD
        CNTK
        Pillow
        OpenCV
-       ApacheSpark
-       Hadoop"]
+       ApacheSpark (Big data)
+       Hadoop (Big data"]
     
     style id1 fill:#f9f,stroke:#333,stroke-width:4px
     style id2 fill:#e0b0ff
