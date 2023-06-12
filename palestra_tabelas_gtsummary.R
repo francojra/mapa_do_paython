@@ -2,7 +2,7 @@
 ### Palestra: gtsummary: uma nova maneira de criar tabelas elegantes e flexíveis
 ### Palestrante: Quemuel Rodrigues (Baruque)
 
-## Conteúdo
+# Conteúdo ---------------------------------------------------------------------------------------------------------------------------------
 
 # 1 - Entendendo o que é o {gt};
 # 2 - Aprendendo os verbos do {gt};
@@ -13,6 +13,15 @@
 # 7 - Inserindo plots dentro de tabelas;
 # 8 - Personalizando tabelas com imagens e logos.
 
-## Instalar pacotes
+# Verbos (camadas) das tabelas -------------------------------------------------------------------------------------------------------------
+
+# - Títulos
+# - Subtítulos
+# - Rótulos das linhas
+# - Rótulos das colunas
+# - Células
+
+# Instalar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 install.packages("gt") # Conhecido por ser o ggplot das tabelas.
+install.packages("gtsummary")
